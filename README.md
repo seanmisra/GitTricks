@@ -17,3 +17,15 @@
   <li><code>git commit -m "Remove .DS_Store files"</code></li>
   <li>And make sure to add .DS_Store to the .gitignore file</li>
 </ul>
+
+<h2>LazyGit: add, commit, push </h2>
+<p>Add the code below to .bash_profile or .bashrc. Make sure to then restart the terminal for changes to take effect.</p>
+
+```
+function lazygit() {
+    git add .
+    git commit -m "$1"
+    git push origin master
+}
+```
+<p>Can commit all changes and push to master branch like this: <code>lazygit "test push"</code>
