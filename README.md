@@ -29,3 +29,12 @@ function lazygit() {
 }
 ```
 <p>Can commit all changes and push to master branch like this: <code>lazygit "test push"</code>
+
+<h2>Edit last commit's message</h2>
+<ul>
+  <li>Edit message: <code>git commit --amend -m "Better Message"</code></li>
+  <li>Force push to GitHub: <code>git push -f</code></li>
+</ul>
+
+
+
