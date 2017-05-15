@@ -3,7 +3,7 @@
 <h2>Stage all changes</h2>
 <code>git add .</code> 
 
-<h2>Delete a commit pushed to GitHub</h2>
+<h2>Delete last commit pushed to GitHub</h2>
 <ul>
   <li>To see last two commits: <code>git rebase -i HEAD~2</code></li>
   <li>Delete the last commit with <code>dd</code> on the second line</li>
@@ -36,5 +36,5 @@ function lazygit() {
   <li>Force push to GitHub: <code>git push -f</code></li>
 </ul>
 
-
-
+<h2>Clean commit log</h2> 
+Enter: <code>git log --oneline</code>
