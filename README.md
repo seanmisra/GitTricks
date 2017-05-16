@@ -3,6 +3,9 @@
 <h2>Stage all changes</h2>
 <code>git add .</code> 
 
+<h2>Undo all changes</h2> 
+<code>git stash -u</code>
+
 <h2>Delete last commit pushed to GitHub</h2>
 <ul>
   <li>To see last two commits: <code>git rebase -i HEAD~2</code></li>
