@@ -39,5 +39,12 @@ function lazygit() {
   <li>Force push to GitHub: <code>git push -f</code></li>
 </ul>
 
+<h2>Amend prior commit</h2>
+<ul> 
+  <li>Stage changed files: <code>git add .</code>
+  <li>Amend last commit w/o changing message: <code>git commit --amend --no-edit</code>
+  <li>Force push to GitHub: <code>git push -f</code></li>
+</ul>
+
 <h2>Clean commit log</h2> 
 Enter: <code>git log --oneline</code>
