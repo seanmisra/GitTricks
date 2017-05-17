@@ -48,3 +48,15 @@ function lazygit() {
 
 <h2>Clean commit log</h2> 
 Enter: <code>git log --oneline</code>
+
+<h2>Change git status colors</h2>
+<p>Add the code below to ~/.gitconfig</p>
+
+```
+[color "status"]
+  added = blue bold
+  changed = cyan bold
+  untracked = red
+```
+<p>The specific colors can be customized as desired. More options here: http://misc.flogisoft.com/bash/tip_colors_and_formatting</p>
+
