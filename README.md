@@ -47,7 +47,10 @@ function lazygit() {
 </ul>
 
 <h2>Clean commit log</h2> 
-Enter: <code>git log --oneline</code>
+<ul>
+  <li>Enter: <code>git log --oneline</code></li>
+  <li>For tags, branches, and some ASCII art use: <code>git log --oneline --graph --decorate</code></li>
+</ul>
 
 <h2>Change git status colors</h2>
 <p>Add the code below to ~/.gitconfig</p>
@@ -59,4 +62,3 @@ Enter: <code>git log --oneline</code>
   untracked = red
 ```
 <p>The specific colors can be customized as desired. More options here: http://misc.flogisoft.com/bash/tip_colors_and_formatting</p>
-
