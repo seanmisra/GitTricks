@@ -62,3 +62,13 @@ function lazygit() {
   untracked = red
 ```
 <p>The specific colors can be customized as desired. More options here: http://misc.flogisoft.com/bash/tip_colors_and_formatting</p>
+
+<h2>Git-Extras</h2>
+<p>Download instructions are here: https://github.com/tj/git-extras/blob/master/Installation.md</p>
+<p>For example, with a Mac and Homebrew you can run: <code>brew install git-extras</code></p>
+<ul>
+  <li>See commit count: <code>git count</code></li>
+  <li>Output repo summary: <code>git summary</code></li>
+  <li>Display effort stats: <code>git effort</code></li>
+</ul>
+<p>More commands here: https://github.com/tj/git-extras/blob/master/Commands.md</p>
