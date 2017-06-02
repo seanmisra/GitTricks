@@ -72,3 +72,11 @@ function lazygit() {
   <li>Display effort stats: <code>git effort</code></li>
 </ul>
 <p>More commands here: https://github.com/tj/git-extras/blob/master/Commands.md</p>
+
+<h2>View config settings</h2> 
+<code>git config --list</code> 
+<ul> 
+  <li>user.name</li>
+  <li>user.email</li>
+  <li>etc.</li>
+</ul>
