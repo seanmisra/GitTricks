@@ -80,3 +80,7 @@ function lazygit() {
   <li>user.email</li>
   <li>etc.</li>
 </ul>
+
+<h2>Count lines of code in a repo</h2>
+<code>git ls-files | grep -vE "(png|jpg|ico|gif)" | xargs wc -l</code>
+<p>Media files (images, icons, and gifs) will be excluded in the count</p>
